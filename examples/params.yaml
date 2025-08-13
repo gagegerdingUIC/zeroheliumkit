@@ -5,22 +5,23 @@ device:
 # resonator
 resonator:
   type: 0.25
-  frequency: 7.7
+  frequency: 5.5
+  frequency_correction: 0.0
   eps: 11
   substrate_h: 1500
   geometry:
-    w: 8
-    g: 4.5
-    coupling_length: 300
+    w: 1.8
+    g: 1
+    coupling_length: 200
     openend_length: 1200
     distance_from_waveguide: 0
-    radius: 50
+    radius: 20
     num: 3
 
 # feedline
 feedline:
-  w: 10
-  g: 5.5
+  w: 1.8
+  g: 1
   pad:
     size: 150
     gap: 50
